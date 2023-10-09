@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src = "../src/index.js"></script>
+    <script>
+        // function GetFeatures(){
+        //     var version = document.querySelector("select").value;
+        //     switch(version){
+        //         case "ver1": document.querySelector("p").innerHTML = `${BankApp_Legacy.Personal} <br>
+        //         ${BankApp_Legacy.NRI}
+        //         `;
+        //         break;
+        //         case "ver2": document.querySelector("p").innerHTML = `${BankApp_Modern.Personal} <br>
+        //         ${BankApp_Modern.NRI} <br>
+        //         ${BankApp_Modern.Loans}
+        //         `;
+        //     }
+        // }
+        var designation = prompt("Enter Designation");
+            for(var employee of employees){
+                if(employee.Designation == designation){
+                   employee.Print();
+                }
+            }
+    </script>
+</head>
+<body>
+    <!-- Select Bank App Version:
+    <select title="sel">
+        <option value="ver1">Version-1</option>
+        <option value="ver2">Version-2</option>
+    </select>
+    <button type="button" onclick="GetFeatures()">Install</button>
+    <p></p> -->
+</body>
+</html>
